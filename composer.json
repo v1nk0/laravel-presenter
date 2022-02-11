@@ -1,0 +1,27 @@
+{
+    "name": "v1nk0/laravel-presenter",
+    "description": "",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Vincent Sebastiaan Kooijman",
+            "email": "info@vincentkooijman.at",
+            "homepage": "https://www.vincentkooijman.at",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "V1nk0\\LaravelPresenter\\": "src/"
+        },
+        "classmap": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "V1nk0\\LaravelPresenter\\Providers\\PackageServiceProvider"
+            ]
+        }
+    }
+}
